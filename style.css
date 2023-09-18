@@ -1,0 +1,40 @@
+body {
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+h1 {
+    color: rgb(74, 180, 246);
+    font-size: 35px;
+    text-align: right;
+    }
+.popispozice {
+    text-align: right;
+    color: rgb(91, 157, 243);
+}
+
+.profil img {
+    width: 200px;
+    }
+
+h2 {
+    color: #1cb8d0;
+    font-size: 25px;
+    font-style: italic;
+    background-color: rgb(170, 244, 244);
+    }
+.footer {
+    background: #8de3f0;
+}
+
+p {
+    text-align: justify;
+}
+.hlavicka img {
+    padding: 150px 30px;
+    background-image: url(obrazky/computer-820281_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
