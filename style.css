@@ -8,47 +8,79 @@ body {
 h1 {
     color: rgb(95, 34, 209);
     font-size: 35px;
-    text-align: right;
-    padding: 0%;
-    margin: 0%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
     }
 
 h2 {
-    color: #1cb8d0;
-    font-size: 25px;
-    font-style: italic;
-    background-color: rgb(170, 244, 244);
-    padding: 0%;
-    margin: 0%;
+    color: rgb(171, 52, 226);
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 0;
+    margin: 10px;
+    border-bottom: 3px solid rgb(171, 52, 226);
+    clear: left;
+    line-height: 1;
+ }
+
+ h2 img {
+    padding: 10px 30px;
+    margin: 10px;
  }
 
 h3 {
     color: rgb(157, 23, 214);
-    text-align: right;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
 
-.popispozice {
-    text-align: right;
-    color: rgb(91, 157, 243);
+.hlavicka img {
+    float: left;
+    overflow: auto;
+    width: 250px;
+    padding: 10px;
+    margin: 0 20px 20px 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(157, 23, 214);
+    border-width: 5px;
 }
 
-.footer {
-    background: #8de3f0;
+.profil p {
+    padding: 20px 100px;
+    margin: 0;
+}
+.odkaznazivotopis {
+    text-align: right;
+    border-bottom: 1px solid rgb(171, 52, 226);
+    margin: 20px 0;
+}
+
+.paticka {
+    text-align: center;
+    color: rgb(171, 52, 226);
+    background-color: aliceblue;
+    padding: 0 10px;
+    margin: 0;
 }
 
 p {
     text-align: justify;
 }
-.hlavicka img {
-    width: 100px;
-    padding: 20px 20px;
-    margin: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: #1cb8d0;
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    text-align: left;
+    border-bottom: 1px solid rgb(171, 52, 226);
+    padding: 15px 20px;
+    margin: 0 20px;
 }
 
 .ikony {
@@ -60,10 +92,27 @@ p {
 .menu {
     margin: 0%;
     padding: 0%;
+    overflow: auto;
     text-align: center;
+    background-color: aliceblue;
 }
 
+.menu img {
+    overflow: auto;
+}
 .menu li {
     display: inline-block;
 }
 
+.menu a {
+    display:inline-block;
+    color: rgb(196, 43, 243);
+    text-decoration: none;
+    padding: 10%;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #91f1f5;
+}
