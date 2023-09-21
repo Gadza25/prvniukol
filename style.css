@@ -1,16 +1,16 @@
 body {
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Playfair Display', serif;
     line-height: 1.5;
     margin: 0%;
+    background-color: rgb(215, 232, 248);
 }
 
 h1 {
     color: rgb(95, 34, 209);
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
+    text-shadow: 0 3px 20px rgb(171, 52, 226);
     }
 
 h2 {
@@ -18,83 +18,134 @@ h2 {
     font-size: 40px;
     font-style: normal;
     text-align: center;
-    background-color: aliceblue;
-    padding: 0;
+
+    padding: 0 0 30px 0;
     margin: 10px;
-    border-bottom: 3px solid rgb(171, 52, 226);
-    clear: left;
-    line-height: 1;
- }
+    border-top: 3px dotted rgb(171, 52, 226);
+    }
 
  h2 img {
     padding: 10px 30px;
-    margin: 10px;
+    margin: 0;
  }
 
 h3 {
     color: rgb(157, 23, 214);
+    font-size: 20px;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
 }
+
+.profil,
+.zamestnaniapraxe,
+.znalostiadovednosti,
+.kontakt {
+    background-color: #f5e3f0;
+}
+
 
 .hlavicka img {
     float: left;
     overflow: auto;
-    width: 250px;
+    width: 200px;
     padding: 10px;
-    margin: 0 20px 20px 20px;
+    margin: 5px 20px 20px 30px;
     border-radius: 20px;
-    border-style: solid;
+    border-style: dotted;
     border-color: rgb(157, 23, 214);
     border-width: 5px;
 }
 
 .profil p {
-    padding: 20px 100px;
+    clear: left;
+    padding: 20px 50px;
     margin: 0;
 }
 .odkaznazivotopis {
     text-align: right;
-    border-bottom: 1px solid rgb(171, 52, 226);
     margin: 20px 0;
 }
 
+footer {
+    border-top: 3px solid rgb(171, 52, 226);
+    line-height: 1;
+}
+
 .paticka {
+    padding: 20px 0 20px 0;
+    background-color: rgb(159, 202, 245);
+}
+.paticka p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     color: rgb(171, 52, 226);
-    background-color: aliceblue;
-    padding: 0 10px;
+    padding: 0;
     margin: 0;
 }
 
+li {
+    padding-left: 50px;
+}
+
+section {
+    padding: 30px 3%;
+    overflow: auto;
+}
 p {
     text-align: justify;
 }
 
 table {
     border-spacing: 0;
+    text-align: center;
+    padding: 30px 5%;
 }
 
-td {
+tr {
     text-align: left;
     border-bottom: 1px solid rgb(171, 52, 226);
     padding: 15px 20px;
     margin: 0 20px;
 }
+ 
+.obdobi {
+    text-align: left;
+    padding-right: 50px;
+}
+
+.vzdelanitabulka,
+.kurz {
+    padding-left: 50px;
+}
+
+.popiscinnosti {
+    text-align: right;
+    padding-left: 50px;
+}
 
 .ikony {
-    font-weight: 100;
-    padding: 0%;
+    font-weight: 400;
+    padding: 30px 5%;
     margin: 0%
 }
 
+.odkaznazivotopis {
+    color: rgb(171, 52, 226);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kontaktpopis {
+    padding-left: 50px;
+}
 .menu {
     margin: 0%;
     padding: 0%;
+    font-weight: bold;
     overflow: auto;
     text-align: center;
     background-color: aliceblue;
+    border: 3px solid rgb(171, 52, 226);
+    clear: left;
 }
 
 .menu img {
@@ -102,6 +153,7 @@ td {
 }
 .menu li {
     display: inline-block;
+    padding: 0;
 }
 
 .menu a {
